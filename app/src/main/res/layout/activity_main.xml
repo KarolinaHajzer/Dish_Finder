@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_of_app"
     tools:context="com.example.szymkiwin10.dishfinder.MainActivity">
 
     <android.support.design.widget.AppBarLayout
@@ -16,7 +17,7 @@
 
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@android:color/holo_green_dark"
+            android:background="@color/colorToolbar"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>

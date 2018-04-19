@@ -2,6 +2,11 @@
     <string name="app_name">DishFinder</string>
     <string name="action_settings">Settings</string>
     <string name="Letsgo">Let\'s go!</string>
-    <string name="welcome_in_dishfinder">Welcome in DishFinder</string>
+    <string name="welcome_in_dishfinder">Welcome in DishFinder!</string>
     <string name="intro">You have no idea what to eat, and the only thing you know is what you have in the fridge? I think this app may help you!</string>
+    <string name="before_checkboxes">Tell us who you are?</string>
+    <string name="buttonCarnivore">carnivore</string>
+    <string name="buttonVegetarian">vegetarian</string>
+    <string name="buttonVegan">vegan</string>
+
 </resources>
