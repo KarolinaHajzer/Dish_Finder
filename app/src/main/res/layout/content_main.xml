@@ -12,7 +12,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome in DishFinder"
+        android:text="@string/welcome_in_dishfinder"
         android:textColor="@color/colorAccent"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,8 +26,7 @@
         android:layout_width="367dp"
         android:layout_height="177dp"
         android:layout_marginTop="20dp"
-        android:text="
-You have no idea what to eat, and the only thing you know is what you have in the fridge? I think this app may help you!"
+        android:text="@string/intro"
         android:textColor="@color/colorAccent"
         android:textSize="26sp"
         android:gravity="center"
@@ -41,7 +40,7 @@ You have no idea what to eat, and the only thing you know is what you have in th
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:background="@android:color/holo_green_light"
         android:text="@string/Letsgo"
