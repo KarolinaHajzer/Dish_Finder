@@ -8,5 +8,60 @@
     <string name="buttonCarnivore">carnivore</string>
     <string name="buttonVegetarian">vegetarian</string>
     <string name="buttonVegan">vegan</string>
+    <string name="third_activity_for_all">What products do you have?</string>
+    <string name="beef">beef</string> //meat
+    <string name="pork">pork</string>
+    <string name="chicken">chicken</string>
+    <string name="shrimps">shrimps</string>
+    <string name="tofu">tofu</string>
+    <string name="eggs">eggs</string>
+    <string name="butter">butter</string>
+    <string name="milk">milk</string>
+    <string name="carrot">carrot</string> //vegetables
+    <string name="potato">potato</string>
+    <string name="sweet_potato">sweet potato</string>
+    <string name="eggplant">eggplant</string>
+    <string name="tomato">tomato</string>
+    <string name="cucumber">cucumber</string>
+    <string name="pumpkin">pumpkin</string>
+    <string name="onion">onion</string>
+    <string name="garlic">garlic</string>
+    <string name="leek">leek</string>
+    <string name="pepper">pepper</string>
+    <string name="spinach">spinach</string>
+    <string name="corn">corn</string>
+    <string name="broccoli">broccoli</string>
+    <string name="kale">kale</string>
+    <string name="cauliflower">cauliflower</string>
+    <string name="beetroot">beetroot</string>
+    <string name="parsley">parsley</string>
+    <string name="arugula">arugula</string>
+    <string name="radish">radish</string>
+    <string name="chickpeas">chickpeas</string>
+    <string name="lentil">lentil</string>
+    <string name="bean">bean</string>
+    <string name="pea">pea</string>
+    <string name="soy">soy</string>
+    <string name="asparagus">asparagus</string>
+    <string name="mushroom">mushroom</string>
+    <string name="cabbage">cabbage</string>
+    <string name="apple">apple</string> //fruits
+    <string name="avocado">avocado</string>
+    <string name="banana">banana</string>
+    <string name="berries">berries</string>
+    <string name="grape">grape</string>
+    <string name="watermelon">watermelon</string>
+    <string name="melon">melon</string>
+    <string name="mango">mango</string>
+    <string name="pineapple">pineapple</string>
+    <string name="papaya">papaya</string>
+    <string name="pear">pear</string>
+
+
+
+
+
+
+
 
 </resources>

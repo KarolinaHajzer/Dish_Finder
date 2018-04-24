@@ -19,7 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".ThirdActivityCarni" />
+        <activity android:name=".ThirdActivityVeget" />
+        <activity android:name=".ThirdActivityVegan"></activity>
     </application>
 
 </manifest>
