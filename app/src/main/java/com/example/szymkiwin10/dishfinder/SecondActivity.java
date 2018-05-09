@@ -45,7 +45,7 @@ public class SecondActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(SecondActivity.this, ThirdActivityVeget.class);
+                Intent myIntent = new Intent(SecondActivity.this, ThirdActivityVegan.class);
                 startActivity(myIntent);
 
 
