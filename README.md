@@ -9,5 +9,4 @@ Dodatkowo:
 
 Technologie:
 - Java
-- Spring 
 - ... (nie jestem jeszcze pewna czy będę korzystać z bazy danych czy z web scrapingu)
