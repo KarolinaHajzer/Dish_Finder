@@ -57,6 +57,8 @@
     <string name="papaya">papaya</string>
     <string name="pear">pear</string>
     <string name="activity_third_bottom_button">next</string>
+    <string name="fourth_activity_text">Your recipes:</string>
+    <string name="fourth_activity_but">Try again!</string>
 
 
 

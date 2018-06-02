@@ -22,7 +22,9 @@
         <activity android:name=".SecondActivity" />
         <activity android:name=".ThirdActivityCarni" />
         <activity android:name=".ThirdActivityVeget" />
-        <activity android:name=".ThirdActivityVegan"></activity>
+        <activity android:name=".ThirdActivityVegan"/>
+        <activity android:name=".FourthActivity">
+        </activity>
     </application>
 
 </manifest>
