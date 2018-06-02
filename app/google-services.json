@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "995165236439",
+    "firebase_url": "https://dishfinder-165fa.firebaseio.com",
+    "project_id": "dishfinder-165fa",
+    "storage_bucket": "dishfinder-165fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995165236439:android:d257994226d2301e",
+        "android_client_info": {
+          "package_name": "com.example.szymkiwin10.dishfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995165236439-tdjp44e7he7o9r2k55reeips0iiqkih4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.szymkiwin10.dishfinder",
+            "certificate_hash": "5ebfaa0bea4caea2972bfc471f20f252498a88a1"
+          }
+        },
+        {
+          "client_id": "995165236439-ls316spq5j8kvhmfpp1su5pnnrt0l764.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "995165236439-ls316spq5j8kvhmfpp1su5pnnrt0l764.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiSbjpiM25bcrvAx0bY4ooxCz-Pl9O2z4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995165236439-ls316spq5j8kvhmfpp1su5pnnrt0l764.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
