@@ -10,9 +10,11 @@ public class SecondActivity extends AppCompatActivity {
     Button carnivore_but;
     Button vegetarian_but;
     Button vegan_but;
+    public String which_butt_isPressed;
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
@@ -24,7 +26,7 @@ public class SecondActivity extends AppCompatActivity {
                 Intent myIntent = new Intent(SecondActivity.this, ThirdActivityCarni.class);
                 startActivity(myIntent);
 
-
+                which_butt_isPressed = "carnivore";
             }
         });
 
@@ -35,8 +37,7 @@ public class SecondActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent myIntent = new Intent(SecondActivity.this, ThirdActivityVeget.class);
                 startActivity(myIntent);
-
-
+                which_butt_isPressed = "vegetarian";
             }
         });
 
@@ -47,10 +48,10 @@ public class SecondActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent myIntent = new Intent(SecondActivity.this, ThirdActivityVegan.class);
                 startActivity(myIntent);
-
-
+                which_butt_isPressed = "vegan";
             }
         });
+
     }
 
 }
