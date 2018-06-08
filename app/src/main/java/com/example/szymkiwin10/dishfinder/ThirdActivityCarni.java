@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 public class ThirdActivityCarni extends AppCompatActivity {
     Button recipe_but;
-    public static ArrayList<String> selectedItems=new ArrayList<>();
+    public ArrayList<String> selectedItems=new ArrayList<String>();
     //public  ArrayList<String> getArrayList() { return selectedItems; }
 
     @Override
@@ -25,7 +25,7 @@ public class ThirdActivityCarni extends AppCompatActivity {
 
         ListView ch1=(ListView) findViewById(R.id.checkable_list);
         ch1.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
-        String[] items={"beef","chicken","pork","shrimps","tofu","eggs","milk","butter","apple","asparagus","avocado","banana","bean","berries","broccoli","carrot","cauliflower","chickpeas","corn","cucumber","garlic","kale","leek","lentil","mango"};
+        final String[] items={"beef","chicken","pork","shrimps","tofu","eggs","milk","butter","apple","asparagus","avocado","banana","bean","berries","broccoli","carrot","cauliflower","chickpeas","corn","cucumber","garlic","kale","leek","lentil","mango"};
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(this,R.layout.rowlayout,R.id.txt_lan,items);
         ch1.setAdapter(adapter);
         ch1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -38,6 +38,11 @@ public class ThirdActivityCarni extends AppCompatActivity {
                 else{
                     selectedItems.add(selectedItem);
                 }
+                Intent intent = new Intent(ThirdActivityCarni.this,FourthActivity.class);
+                intent.putExtra("Files_to_send",selectedItems);
+                startActivity(intent);
+
+                //ArrayList list_of_selected_items = selectedItems;
             }
         });
 

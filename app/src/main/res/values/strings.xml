@@ -59,6 +59,8 @@
     <string name="activity_third_bottom_button">next</string>
     <string name="fourth_activity_text">Your recipes:</string>
     <string name="fourth_activity_but">Try again!</string>
+    <string name="your_selected_products">Your selected products: </string>
+    <string name="selected_category">Selected category: </string>
 
 
 
