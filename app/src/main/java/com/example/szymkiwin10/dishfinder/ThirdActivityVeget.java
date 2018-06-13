@@ -1,6 +1,7 @@
 package com.example.szymkiwin10.dishfinder;
 
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -10,10 +11,17 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class ThirdActivityVeget extends AppCompatActivity {
     Button recipe_but;
+    public static Bundle bundle = new Bundle();
     public ArrayList<String> selectedItems=new ArrayList<String>();
 
     @Override
@@ -44,8 +52,38 @@ public class ThirdActivityVeget extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+                AssetManager assetManager = getAssets();
+                List<String> string_to_send = new ArrayList<>();
+
+                try {
+                    InputStream is = assetManager.open("vegetarian_recipes.txt");
+                    BufferedReader br = new BufferedReader( new InputStreamReader(is));
+                    String line = null;
+                    while ((line = br.readLine()) != null) {
+                        //System.out.println(line);
+                        String[] currentLine = line.split(";");
+                        String recipe_name = currentLine[0];
+                        String recipe_descr = currentLine[1];
+                        String recipe_ingred = currentLine[2];
+                        String[] recipe_ingred_splited = recipe_ingred.split(",");
+
+                        for (String s:selectedItems) {
+                            if(Arrays.asList(recipe_ingred_splited).contains(s)){
+                                if (!string_to_send.contains(recipe_name+"\n\n"+recipe_descr+"\n\n"))
+                                {
+                                    string_to_send.add(recipe_name+"\n\n"+recipe_descr+"\n\n");
+                                }}
+                                //string_to_send.add(recipe_name+"\n\n"+recipe_descr+"\n\n");}
+                        }
+
+                    }
+                    br.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
                 Intent myIntent = new Intent(ThirdActivityVeget.this, FourthActivity.class);
                 myIntent.putExtra("Files_to_send",selectedItems);
+                ThirdActivityVeget.bundle.putString("all_recipes_vegetarian",string_to_send.toString());
                 startActivity(myIntent);
 
 

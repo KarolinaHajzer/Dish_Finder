@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">DishFinder</string>
+    <string name="welcome_to_DF">Welcome to DishFinder</string>
     <string name="action_settings">Settings</string>
     <string name="Letsgo">Let\'s go!</string>
     <string name="welcome_in_dishfinder">Welcome in DishFinder!</string>
@@ -9,7 +10,8 @@
     <string name="buttonVegetarian">vegetarian</string>
     <string name="buttonVegan">vegan</string>
     <string name="third_activity_for_all">What products do you have?</string>
-    <string name="beef">beef</string> //meat
+    <string name="beef">beef</string>
+    //meat
     <string name="pork">pork</string>
     <string name="chicken">chicken</string>
     <string name="shrimps">shrimps</string>
@@ -17,7 +19,8 @@
     <string name="eggs">eggs</string>
     <string name="butter">butter</string>
     <string name="milk">milk</string>
-    <string name="carrot">carrot</string> //vegetables
+    <string name="carrot">carrot</string>
+    //vegetables
     <string name="potato">potato</string>
     <string name="sweet_potato">sweet potato</string>
     <string name="eggplant">eggplant</string>
@@ -45,7 +48,8 @@
     <string name="asparagus">asparagus</string>
     <string name="mushroom">mushroom</string>
     <string name="cabbage">cabbage</string>
-    <string name="apple">apple</string> //fruits
+    <string name="apple">apple</string>
+    //fruits
     <string name="avocado">avocado</string>
     <string name="banana">banana</string>
     <string name="berries">berries</string>
@@ -61,13 +65,6 @@
     <string name="fourth_activity_but">Try again!</string>
     <string name="your_selected_products">Your selected products: </string>
     <string name="selected_category">Selected category: </string>
-
-
-
-
-
-
-
 
 
 </resources>

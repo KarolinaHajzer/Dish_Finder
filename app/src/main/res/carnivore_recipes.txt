@@ -1,0 +1,4 @@
+﻿Recipe1;Descript of 1 recipe for carniv orel jxls cbkbvk skvn knvk;chorizo,tomatoe,beans,pesto
+Recipe2;Descript of 2 recipe for carniv orel jxls cbkbvk skvn knvk;arugula,beetroot,pesto,pesto
+Recipe3;Descript of 3 recipe for carniv orel jxls cbkbvk skvn knvk;pesto,beetroot,beans,chorizo
+Recipe3;Descript of 3 recipe for carniv orel jxls cbkbvk skvn knvk;pesto,beetroot,beans,chorizo
